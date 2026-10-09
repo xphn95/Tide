@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     # 09:14 Asia/Shanghai
-    - cron: "14 1 * * *"
+    - cron: "21 22 * * *"
+    - cron: "21 00 * * *"
+    - cron: "21 2 * * *"
 
 permissions:
   contents: read
